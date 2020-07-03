@@ -1,5 +1,5 @@
 {
-  "name": "g-test",
+  "name": "v-gridsome",
   "private": true,
   "scripts": {
     "build": "gridsome build",
