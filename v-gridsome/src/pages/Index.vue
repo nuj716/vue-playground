@@ -5,7 +5,9 @@
     <g-image alt="Example image" src="~/favicon.png" width="135" />
 
     <h1>Hello, world!</h1>
-
+    <vs-button>
+      Hello World Vuesax + Gridsome
+    </vs-button>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
@@ -19,6 +21,14 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import Vuesax from 'vuesax'
+
+import 'vuesax/dist/vuesax.css' //Vuesax styles
+Vue.use(Vuesax, {
+  // options here
+})
+
 export default {
   metaInfo: {
     title: 'Hello, world!'
